@@ -2,7 +2,7 @@
 ANDROID_SDK_ROOT=/usr/lib/android-sdk
 _APK_BASENAME="Application"
 _INTERMEDIATE="bin gen ${_APK_BASENAME}.apk.unaligned classes.dex"
-_PLATFORM=$(ls $ANDROID_SDK_ROOT/platforms | sort -n |tail -1)
+_PLATFORM=$(ls $ANDROID_SDK_ROOT/platforms | sort -n | tail -1)
 _ANDROID_CP=$ANDROID_SDK_ROOT/platforms/$_PLATFORM/android.jar
 
 clear
